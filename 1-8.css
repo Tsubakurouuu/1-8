@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list-font {
+  padding: 50px 0;
+}
+
+p {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.list {
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.list:nth-child(odd) {
+  background-color: #808080;
+}
+
+.full-box {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  line-height: 0;
+}
+
+.box:nth(6) {
+  margin-right: 0;
+}
+
+.box:nth(9) {
+  margin-right: 0;
+}
+
+.box-center {
+  padding: 40px 0;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.space {
+  width: 48px;
+  display: inline-block;
+}
